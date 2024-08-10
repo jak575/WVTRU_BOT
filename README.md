@@ -11,11 +11,14 @@ You'll find a file named .env_example in the same directory as the bot executabl
 Open the newly renamed .env file and add your Vitruveo wallet credentials. You'll need to add the following variables:
 * KEY: Your Vitruveo wallet private key (from the new wallet you created)
 * VALUE: The amount of VTRU to wrap
+* SELL: Boolean to set automatic sells, or manual sells.
 Here's an example of what the .env file should look like:
-KEY=your_vitruveo_private_key_here
-VALUE=100
+
+ #### KEY=your_vitruveo_private_key_here 
+ #### VALUE=100
+ #### SELL=False
 > Replace **your_vitruveo_private_key_here** with your actual **Vitruveo wallet private key**.
-AGAIN, PLEASE MAKE SURE TO KEEP YOUR PRIVATE KEY SAFE. DO NOT SHARE IT WITH ANYONE. IF YOU LOSE YOUR PRIVATE KEY, YOU WILL LOSE ACCESS TO YOUR FUNDS.
+>> AGAIN, PLEASE MAKE SURE TO KEEP YOUR PRIVATE KEY SAFE. DO NOT SHARE IT WITH ANYONE. IF YOU LOSE YOUR PRIVATE KEY, YOU WILL LOSE ACCESS TO YOUR FUNDS.
 ### 3. Save the .env file
 Once you've added your credentials to the .env file, save it and close the file.
 ### 4. Run the bot
