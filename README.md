@@ -4,7 +4,6 @@ A bot for automating WVTRU transactions on the Vitruveo blockchain.
 Getting Started
 ---------------
 To use this bot, you'll need to configure your Vitruveo wallet credentials and other settings. Here's a step-by-step guide to get you started:
-### 1. Rename the .env.yml_example file to .env.yml
 You'll find a file named .env_example in the same directory as the bot executable. Rename this file to .env.
 ### 2. Add your Vitruveo wallet credentials to the .env.yml file
 **IMPORTANT**: Before proceeding, please make sure you understand the importance of keeping your private key safe. **DO NOT** use your main wallet's private key with this bot. Instead, create a new wallet specifically for this purpose and fund it with the amount of VTRU you wish to wrap.
